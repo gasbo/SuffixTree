@@ -1,0 +1,53 @@
+{
+	"edges":	[{
+			"label":	"a",
+			"edges":	{
+				"edges":	[{
+						"label":	"na",
+						"edges":	{
+							"edges":	[{
+									"label":	"na$",
+									"edges":	{
+										"edges":	[]
+									}
+								}, {
+									"label":	"$",
+									"edges":	{
+										"edges":	[]
+									}
+								}]
+						}
+					}, {
+						"label":	"$",
+						"edges":	{
+							"edges":	[]
+						}
+					}]
+			}
+		}, {
+			"label":	"banana$",
+			"edges":	{
+				"edges":	[]
+			}
+		}, {
+			"label":	"na",
+			"edges":	{
+				"edges":	[{
+						"label":	"na$",
+						"edges":	{
+							"edges":	[]
+						}
+					}, {
+						"label":	"$",
+						"edges":	{
+							"edges":	[]
+						}
+					}]
+			}
+		}, {
+			"label":	"$",
+			"edges":	{
+				"edges":	[]
+			}
+		}]
+}
