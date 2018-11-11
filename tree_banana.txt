@@ -1,52 +1,52 @@
 {
 	"edges":	[{
 			"label":	"a",
-			"edges":	{
+			"to":	{
 				"edges":	[{
 						"label":	"na",
-						"edges":	{
+						"to":	{
 							"edges":	[{
 									"label":	"na$",
-									"edges":	{
+									"to":	{
 										"edges":	[]
 									}
 								}, {
 									"label":	"$",
-									"edges":	{
+									"to":	{
 										"edges":	[]
 									}
 								}]
 						}
 					}, {
 						"label":	"$",
-						"edges":	{
+						"to":	{
 							"edges":	[]
 						}
 					}]
 			}
 		}, {
 			"label":	"banana$",
-			"edges":	{
+			"to":	{
 				"edges":	[]
 			}
 		}, {
 			"label":	"na",
-			"edges":	{
+			"to":	{
 				"edges":	[{
 						"label":	"na$",
-						"edges":	{
+						"to":	{
 							"edges":	[]
 						}
 					}, {
 						"label":	"$",
-						"edges":	{
+						"to":	{
 							"edges":	[]
 						}
 					}]
 			}
 		}, {
 			"label":	"$",
-			"edges":	{
+			"to":	{
 				"edges":	[]
 			}
 		}]
