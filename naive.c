@@ -2,34 +2,11 @@
 #include <stdlib.h>
 #include <string.h>
 #include "cJSON.h" // https://github.com/DaveGamble/cJSON
-
-#define FIRST_LETTER 'a'
-#define LAST_LETTER 'z'
-#define TERMINATOR '$'
-#define ALPHABET_WIDTH (LAST_LETTER - FIRST_LETTER)
-
+#include "naive.h" 
 
 char* _TEXT;
 struct NODE* _ROOT;
 long _WIDTH;
-
-
-typedef struct EDGE
-{
-    int lft;
-    int rgt;    
-    struct NODE* from;
-    struct NODE* to;
-
-
-} EDGE;
-
-typedef struct NODE
-{
-	struct EDGE* edges[ALPHABET_WIDTH + 1];
-
-} NODE;
-
 
 struct EDGE* getEdge(struct NODE* node, char c ){
 
