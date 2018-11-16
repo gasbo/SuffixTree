@@ -1,16 +1,16 @@
 # SuffixTree
-Suffix tree construction: Naive Algorithm and (currently working on) Ukkonen's.
+#### Suffix tree construction: Naive Algorithm and (currently working on) Ukkonen's.
 
-Using the cJSON library https://github.com/DaveGamble/cJSON
+#### Using the cJSON library https://github.com/DaveGamble/cJSON *
 
-Compilation:
+### Compilation:
 
-gcc suffixtree.c naive.c cJSON.c -o suffixtree
+> gcc suffixtree.c naive.c cJSON.c -o suffixtree
 
-Execution:
+### Execution:
 
-./suffixtree string
+> ./suffixtree string
 
-Prints: 
+### Returns: 
 
-The suffix tree in JSON format
+> The suffix tree in JSON format
