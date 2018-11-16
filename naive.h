@@ -35,6 +35,8 @@ struct EDGE* getEdge(struct NODE* node, char c );
 
 void setEdge(struct NODE* node, char c, struct EDGE* edge );
 
+void freeTree(struct NODE* node);
+
 struct NODE* allocNode();
 
 void addEdge(struct NODE* from, struct NODE* to, int lft, int rgt);

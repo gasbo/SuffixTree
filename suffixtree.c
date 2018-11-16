@@ -12,8 +12,11 @@ int  main ( int argc, char **argv ) {
         return -1;
 
     }
+	struct NODE* tree = getSuffixTree(str);
 
-	printf( "%s", cJSON_Print( treeToJSON( getSuffixTree(str))));
+	printf( "%s", cJSON_Print( treeToJSON( tree )));
+	
+	freeTree(tree);
 
     return 0;
 }

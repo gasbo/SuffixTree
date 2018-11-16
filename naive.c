@@ -55,6 +55,19 @@ struct NODE* allocNode(){
  	return son;
 }
 
+void freeTree(struct NODE* node){
+
+	for (int i = 0; i <= ALPHABET_WIDTH; ++i)
+	{
+		if(node->edges[i] != NULL){
+
+			freeTree(node->edges[i]->to);
+			free(node->edges[i]);
+		}
+	}
+	free(node);
+}
+
 void addEdge(struct NODE* from, struct NODE* to, int lft, int rgt){
 
 	struct EDGE* edge  = malloc(sizeof(struct EDGE));
