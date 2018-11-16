@@ -1,7 +1,7 @@
 # SuffixTree
 #### Suffix tree construction: Naive Algorithm and (currently working on) Ukkonen's.
 
-#### Using the cJSON library https://github.com/DaveGamble/cJSON *
+#### Using the cJSON library https://github.com/DaveGamble/cJSON
 
 ### Compilation:
 
