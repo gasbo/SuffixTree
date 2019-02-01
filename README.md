@@ -3,14 +3,10 @@
 
 #### Using the cJSON library https://github.com/DaveGamble/cJSON
 
-### Compilation:
+### Compile:
 
 > gcc suffixtree.c naive.c cJSON.c -o suffixtree
 
-### Execution:
+### Execute:
 
 > ./suffixtree string
-
-### Returns: 
-
-> The suffix tree in JSON format
